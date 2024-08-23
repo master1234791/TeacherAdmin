@@ -1,0 +1,43 @@
+<!-- Index.html file -->
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="style.css">
+    <title>QR Code Scanner / Reader
+    </title>
+    <script  type="module" src="connection.js"></script>
+    <script  type="module" src="main.js"></script>
+</head>
+ 
+<body>
+    <div class="container">
+        <h1>Scan QR Codes</h1>
+        <div class="section">
+                <label >Date:</label>
+                <input type="date" id="Activity_Date" name="date">
+                <label >Activity:</label>
+                <input type="text" id="Activity_Name" name="academic">
+                <br>
+                <br>
+                <label >Discipline:</label>
+                <input type="text" id="Discipline" name="discipline">
+                <label >Group:</label>
+                <input type="text" id="Group" name="group">
+                <!--<button id="submit">Submit</button>-->
+              
+            <div id="my-qr-reader">
+            </div>
+        </div>
+    </div>
+    <script
+        src="https://unpkg.com/html5-qrcode">
+    </script>
+
+</body>
+ 
+</html>
