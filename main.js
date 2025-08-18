@@ -9,14 +9,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebas
 import { getFirestore, collection, addDoc,doc,setDoc, Timestamp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBjh2WHyZZ1WaB2LVfMdq84BkC5mI00dEw",
-  authDomain: "activityloader.firebaseapp.com",
-  projectId: "activityloader",
-  storageBucket: "activityloader.appspot.com",
-  messagingSenderId: "604488222680",
-  appId: "1:604488222680:web:b04293ab53ef978162d4ad",
-  measurementId: "G-R6YNV1JSNY"
+  apiKey: "AIzaSyCoqs-uC7DN5-lVLk79bbDvmM7AGAjYyT0",
+  authDomain: "teacheraid2-89ea5.firebaseapp.com",
+  projectId: "teacheraid2-89ea5",
+  storageBucket: "teacheraid2-89ea5.firebasestorage.app",
+  messagingSenderId: "421961067051",
+  appId: "1:421961067051:web:98abfd1993fefb1004186e"
 };
+
 
 const app = initializeApp(firebaseConfig);
 const firestore = getFirestore(app);
@@ -73,5 +73,6 @@ domReady(function () {
 });
 
    
+
 
   
