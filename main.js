@@ -45,7 +45,7 @@ domReady(function () {
         result=decodeText;
         Act_date=document.getElementById("Activity_Date").value;
         Act_name=document.getElementById("Activity_Name").value;
-        Discipline=document.getElementById("Discipline").value;
+        Grade=document.getElementById("Discipline").value;
         Group=document.getElementById("Group").value;
         //Name=result;
         console.log(Act_name);
@@ -57,7 +57,7 @@ domReady(function () {
         setDoc(doc(firestore, "Activities",result), {
             Date:Act_date,
             Activity:Act_name,
-            Grade:Discipline,
+            Grade:Grade,
             Name:result,
             Group:Group
          });
@@ -76,4 +76,5 @@ domReady(function () {
 
 
   
+
 
