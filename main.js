@@ -57,7 +57,7 @@ domReady(function () {
         setDoc(doc(firestore, "Activities",result), {
             Date:Act_date,
             Activity:Act_name,
-            Discipline:Discipline,
+            Grade:Discipline,
             Name:result,
             Group:Group
          });
@@ -76,3 +76,4 @@ domReady(function () {
 
 
   
+
