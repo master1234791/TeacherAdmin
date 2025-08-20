@@ -3,7 +3,7 @@ var Act_date;
 var Act_name;
 var Activity=[];
 var count;
-var Discipline;
+var Grade;
 var Group;
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
 import { getFirestore, collection, addDoc,doc,setDoc, Timestamp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
@@ -76,5 +76,6 @@ domReady(function () {
 
 
   
+
 
 
